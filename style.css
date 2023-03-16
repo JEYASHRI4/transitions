@@ -1,0 +1,65 @@
+#title{
+    text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:burlywood;
+text-shadow: 1px 1px 1px black,0px 0px 20px blue;
+}
+#p1{
+    text-align: center;
+    font-size:large;
+}
+#trans{
+    text-align: center;
+    font-size: large;
+}
+#d1{
+    width:150px;
+    height: 100px;
+    background-color: blue;
+    transition: width 3s;
+}
+#d1:hover{
+    width:300px;
+}
+#p2{
+    font-size: large;
+}
+#d2{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    transition: height 2s;
+}
+#d2:hover{
+    height: 250px;
+}
+#d3{
+    width:200px;
+    height: 200px;
+    background-color:skyblue;
+    transition: width 2s,height 2s;
+    transition-delay: 1s;
+}
+#d3:hover{
+    width:300px;
+    height: 300px;
+}
+#d4{
+    width:100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transition: width 2s,height 2s,transform 2s;
+}
+#d4:hover{
+    width:250px;
+    height:200px;
+    transform:rotate(180deg);
+}
+#link{
+    padding-left: 600px;
+}
+body
+{
+    margin: 10px;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+}
